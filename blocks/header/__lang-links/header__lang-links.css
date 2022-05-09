@@ -1,0 +1,8 @@
+.header__lang-links {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 48px;
+    align-items: end;
+    border: 1px solid red;
+}
