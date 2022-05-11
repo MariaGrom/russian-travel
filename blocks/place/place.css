@@ -1,0 +1,8 @@
+.place {
+    display: grid;
+    width: 100%;
+    gap: 48px 40px;
+    grid-template-areas:
+    'header url'
+    'image text';
+}
