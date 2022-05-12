@@ -1,6 +1,6 @@
 .places {
     display: flex;
-    width: 984px;
+    width: calc(100% - 2 * 148px);
     flex-direction: column;
     margin: 0 auto 0;
     padding: 0;
