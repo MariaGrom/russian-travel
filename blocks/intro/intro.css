@@ -1,13 +1,9 @@
 .intro {
     border: 1px solid red;
     width: calc(100% - 2 * 148px);
-    height: calc(92px + 58px + 40px + 208px + 33px + 90px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 0 auto 0;
     padding: 0;
-    position: relative;
-    color: #FFFFFF;
-    ;
 }

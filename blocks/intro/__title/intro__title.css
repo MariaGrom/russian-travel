@@ -1,13 +1,12 @@
 .intro__title {
     border: 1px solid red;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 54px;
-line-height: 58px;
-/* identical to box height, or 107% */
-margin: 92px 0 0;
-padding: 0;
-width: 690px;
-height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* identical to box height, or 107% */
+    margin: 0;
+    padding: 92px 0 0;
+    max-width: 690px;
 }
