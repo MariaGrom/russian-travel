@@ -1,14 +1,14 @@
-.place__paragraph {
+.place__paragraph{
     margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.61;
+    padding: 27px 0 0;
 }
 
-@media screen and (max-width: 459px) {
+.place__paragraph:first-of-type {
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
     .place__paragraph {
-        padding: 0 16px 0;
+        padding: 25px 0 0;
     }
 }
