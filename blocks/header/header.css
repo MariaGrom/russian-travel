@@ -6,7 +6,6 @@
     padding: 28px 0 0;
     align-items: end;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 459px) {
     .header {
         max-width: calc(100% - 2 * 16px);
         padding: 16px 0 0;

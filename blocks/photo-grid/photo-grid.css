@@ -1,12 +1,11 @@
 .photo-grid {
     width: calc(100% - 2 * 48px);
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     gap: 16px;
     margin: 0 auto 0;
     padding: 92px 0 12px;
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 459px) {
     .photo-grid {
         width: calc(100% - 2 * 16px);
         padding: 64px 0 14px;

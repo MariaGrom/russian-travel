@@ -4,23 +4,22 @@
     flex-direction: column;
     margin: 0 auto 0;
     padding: 0;
-    border: 1px solid red;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .places {
-    width: calc(100% - 2 * 48px);
+        width: calc(100% - 2 * 48px);
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .places {
-    width: calc(100% - 2 * 24px);
+        width: calc(100% - 2 * 24px);
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 459px) {
     .places {
-    width: 100%;
+        width: 100%;
     }
 }
