@@ -1,30 +1,38 @@
 .cover__subtitle {
-    max-width: 360px;
-    padding: 32px 0 0;
-    margin: 0 auto 0;
-    font-size: 18px;
-    line-height: 1.22;
-    text-align: center;
+  max-width: 360px;
+  padding: 32px 0 0;
+  margin: 0 auto 0;
+  font-size: 18px;
+  line-height: calc(1 / 18 * 22);
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    max-width: 288px;
+    padding: 16px 0 0;
+    font-size: 14px;
+    line-height: calc(1 / 14 * 16);
   }
-  
-  /*@media screen and (max-width: 1279px) {*/
-  /*  .cover__subtitle:last-child {*/
-  /*    display: none;*/
-  /*  }*/
-  /*}*/
-  
-  /*@media screen and (max-width: 767px) {*/
-  /*  .cover__subtitle {*/
-  /*    padding-left: 32px;*/
-  /*    font-size: 16px;*/
-  /*  }*/
-  /*}*/
-  
-  /*@media screen and (max-width: 459px) {*/
-  /*  .cover__subtitle {*/
-  /*    padding-left: 16px;*/
-  /*    font-size: 12px;*/
-  /*    line-height: calc(1 / 12 * 14);*/
-  /*  }*/
-  /*}*/
-  
+}
+
+/*@media screen and (max-width: 1279px) {*/
+/*  .cover__subtitle:last-child {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (max-width: 767px) {*/
+/*  .cover__subtitle {*/
+/*    padding-left: 32px;*/
+/*    font-size: 16px;*/
+/*  }*/
+/*}*/
+
+/*@media screen and (max-width: 459px) {*/
+/*  .cover__subtitle {*/
+/*    padding-left: 16px;*/
+/*    font-size: 12px;*/
+/*    line-height: calc(1 / 12 * 14);*/
+/*  }*/
+/*}*/

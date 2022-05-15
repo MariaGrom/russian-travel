@@ -1,11 +1,8 @@
 .intro__list {
     border: 1px solid red;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 18px;
-    /* or 150% */
+    line-height: calc(1 / 12 * 18);
     height: 90px;
     margin: 33px 0 0;
     padding: 0;

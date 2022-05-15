@@ -1,8 +1,14 @@
-.place__paragraph_text{
+.place__paragraph_text {
     margin: 0;
+    padding: 27px 0 0;
+}
+
+.place__paragraph_text:first-of-type {
     padding: 0;
 }
 
-.place__paragraph_text:first-of-type{
-    padding: 0 0 26px;
+@media screen and (max-width: 768px) {
+    .place__paragraph_text {
+        padding: 25px 0 0;
+    }
 }

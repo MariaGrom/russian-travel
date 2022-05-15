@@ -3,15 +3,20 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-color: #FFFFFF;
-
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(1 / 24 * 28);
+    color: #FFF;
 }
 
 .header__lang-link:first-of-type {
     margin: 0 16px 0 0;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: calc(1 / 18 * 20);
+    }
 }
